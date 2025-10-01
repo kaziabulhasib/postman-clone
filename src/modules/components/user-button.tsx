@@ -26,7 +26,7 @@ import { useRouter } from "next/navigation";
 interface UserData {
   id: string;
   email: string | null;
-  //   name: string | null;
+  name: string | null;
   image: string | null;
   createdAt: Date;
   updatedAt: Date;
